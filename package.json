@@ -1,0 +1,27 @@
+{
+  "name": "sequalizedburger",
+  "version": "1.0.0",
+  "description": "Burger app with Node, Express, and Sequalize.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muradusa/sequalizedBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muradusa/sequalizedBurger/issues"
+  },
+  "homepage": "https://github.com/muradusa/sequalizedBurger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mysql": "^2.18.1",
+    "sequelize": "^5.21.6",
+    "sequelize-cli": "^5.5.1"
+  }
+}
