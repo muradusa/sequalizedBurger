@@ -3,7 +3,7 @@ var express = require("express");
 var db = require("./models");
 
 var app = express();
-
+//check
 app.use(express.static("public"));
 
 //Parse request body as JSON
